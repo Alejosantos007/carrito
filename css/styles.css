@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+a {
+    text-decoration: none;
+
+}
+.header {
+    background-color: orange;
+}
+.footer {
+    background-color: orange;
+}
