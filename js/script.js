@@ -1,23 +1,23 @@
-// Seleccionamos las imágenes usando sus IDs
 const imagenGardevoir = document.getElementById('gardepeluche');
 const imagenEspurr = document.getElementById('espurrpeluche');
 const imagenPulseritas = document.getElementById('pulseritas');
 
-// Añadimos el evento de clic a cada imagen
+const containerBuy = document.querySelector('.container-buy');
+
 imagenGardevoir.onclick = function() {
   const nuevaImagen = document.createElement('img');
   nuevaImagen.src = imagenGardevoir.src;
-  document.body.appendChild(nuevaImagen);  // Se añade la nueva imagen al body
+  containerBuy.appendChild(nuevaImagen);
 };
 
 imagenEspurr.onclick = function() {
   const nuevaImagen = document.createElement('img');
   nuevaImagen.src = imagenEspurr.src;
-  document.body.appendChild(nuevaImagen);  // Se añade la nueva imagen al body
+  containerBuy.appendChild(nuevaImagen);
 };
 
 imagenPulseritas.onclick = function() {
   const nuevaImagen = document.createElement('img');
   nuevaImagen.src = imagenPulseritas.src;
-  document.body.appendChild(nuevaImagen);  // Se añade la nueva imagen al body
+  containerBuy.appendChild(nuevaImagen);
 };
