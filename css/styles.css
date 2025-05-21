@@ -39,13 +39,13 @@ img {
 }
 
 .container {
-  width: 860px;
+  width: 530px;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: orange;
-  padding: 10px;
+  padding: 40px;
 }
 
 .container-buy {
@@ -53,9 +53,18 @@ img {
   width: 30%;
   height: 500px;
   display: flex;
+  flex-wrap: wrap;
   background-color: orange;
   justify-content: center;
-  flex-direction: row;
+  align-items: flex-start;
+  gap: 5px;
+  
+}
+.container-buy img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .products {
